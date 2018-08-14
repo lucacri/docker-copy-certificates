@@ -1,0 +1,8 @@
+#!/usr/bin/with-contenv bash
+
+while :
+do
+	/bin/cp  /from/tls.key /to/$DOMAIN_NAME.key
+	/bin/cp  /from/tls.crt /to/$DOMAIN_NAME.crt
+	/bin/sleep 60
+done
