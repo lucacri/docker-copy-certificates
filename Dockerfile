@@ -1,4 +1,4 @@
-FROM lucacri/alpine-base:3.6
+FROM lucacri/alpine-base:3.10
 LABEL maintainer="lucacri@gmail.com"
 
 ADD rootfs /
